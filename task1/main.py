@@ -1,3 +1,6 @@
+import mmh3
+
+
 class BloomFilter:
     def __init__(self, n):
         self.n = n
